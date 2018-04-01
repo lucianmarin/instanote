@@ -1,12 +1,12 @@
 <?php
     include 'include/context.php';
 
-    if (!$auth) { redirect(); }
+    $id = isset($_GET['id']) ? $_GET['id'] : 0;
 
-    if (isset($_GET['id']) and $auth) {
-	    $posts = restore();
-	    $posts = without($posts, $_GET['id']);
-	    store($posts);
+    if ($auth and $id) {
+        $posts = restore();
+        $posts = without($posts, $id);
+        store($posts);
     }
 
     redirect();

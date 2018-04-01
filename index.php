@@ -1,7 +1,7 @@
 <?php
     include 'include/context.php';
 
-	$posts = restore();
+    $posts = restore();
 
     if (isset($_GET['p']) and abs($_GET['p'])) {
         $page = abs($_GET['p']);
@@ -20,21 +20,18 @@
 <? include 'include/menu.php'; ?>
 
 <div class="main">
-	<div class="center">
-		<? foreach ($posts as $post): ?>
-	        <? include 'include/item.php'; ?>
-		<? endforeach; ?>
-		<div class="content">
-			<div class="pages">
-		        <? foreach (range(1, $pages) as $number): ?>
-	                <a <? if ($number == $page): ?>class="selected"<? endif; ?> href="/?p=<?= $number ?>"><?= $number ?></a>
-					<? if ($number != $pages): ?>
-	                	<b>&middot;</b>
-	                <? endif; ?>
-		        <? endforeach; ?>
-			</div>
-		</div>
-	</div>
+    <div class="center">
+        <? foreach ($posts as $post): ?>
+            <? include 'include/item.php'; ?>
+        <? endforeach; ?>
+        <div class="content">
+            <div class="pages">
+                <? foreach (range(1, $pages) as $number): ?>
+                    <a class="<? if ($number == $page): ?>selected<? endif; ?>" href="/?p=<?= $number ?>"><?= $number ?></a>
+                <? endforeach; ?>
+            </div>
+        </div>
+    </div>
 </div>
 
 <? include 'include/footer.php'; ?>

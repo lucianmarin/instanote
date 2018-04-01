@@ -31,8 +31,8 @@ function search() {
         content += title.href.toLowerCase();
         content += title.innerHTML.toLowerCase();
         if (quote) {
-	        content += quote.innerHTML.toLowerCase();
-	    }
+            content += quote.innerHTML.toLowerCase();
+        }
         if (note) {
             content += note.innerHTML.toLowerCase();
         }

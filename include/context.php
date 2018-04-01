@@ -5,36 +5,43 @@
 
     date_default_timezone_set('Europe/Bucharest');
 
-    $auth = False;
+    $password = 'md5 of the password';
     $self = $_SERVER['PHP_SELF'];
-    $password = 'md5 of your password as string';
 
-    if (isset($_COOKIE['user']) and $_COOKIE['user'] === $password) {
+    if (isset($_COOKIE['auth']) and $_COOKIE['auth'] === $password) {
         $auth = True;
+    } else {
+        $auth = False;
     }
 
-    function cmp($a, $b) { return $b['created'] - $a['created']; }
+    if (isset($_COOKIE['dark']) and $_COOKIE['dark'] === 'on') {
+        $dark = True;
+    } else {
+        $dark = False;
+    }
 
     function restore() {
-        $file = 'notes.json';
-        $posts = json_decode(file_get_contents($file), true);
-        return $posts;
+        return json_decode(file_get_contents('data/notes.json'), true);
+    }
+
+    function compare($a, $b) {
+        return $b['created'] - $a['created'];
     }
 
     function store($posts) {
-        $file = 'notes.json';
-        usort($posts, 'cmp');
-        file_put_contents($file, json_encode($posts));
+        copy('data/notes.json', 'data/backup.json');
+        usort($posts, 'compare');
+        file_put_contents('data/notes.json', json_encode($posts));
     }
 
     function without($posts, $id) {
-	    $new = array();
-	    foreach ($posts as $post) {
-		    if ($post['created'] != $id) {
-			    array_push($new, $post);
-		    }
-	    }
-	    return $new;
+        $new = array();
+        foreach ($posts as $post) {
+            if ($post['created'] != $id) {
+                array_push($new, $post);
+            }
+        }
+        return $new;
     }
 
     function ago($past) {
