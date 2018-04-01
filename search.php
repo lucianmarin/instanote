@@ -30,7 +30,7 @@
 <div class="main">
     <div class="center">
         <form class="search" action="/search.php" method="get" autocomplete="off">
-            <input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" onkeyup="search()" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
+            <input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
         </form>
         <? foreach ($results as $post): ?>
             <? include 'include/item.php'; ?>
