@@ -4,7 +4,7 @@
 
 <div class="main">
 	<div class="center">
-		<form action="set.php" method="post">
+		<form action="set.php" method="post" autocomplete="off">
 			<input class="key" type="text" name="key" placeholder="Keyphrase" required autofocus autocapitalize="off">
 			<input type="submit" value="Login">
 		</form>
