@@ -1,10 +1,10 @@
 ---
 deployment:
-    tasks:
-        - export DEPLOYPATH=/home/lucianma/public_html/
-        - /bin/cp *.php $DEPLOYPATH
-        - /bin/cp -R images $DEPLOYPATH
-        - /bin/cp -R fonts $DEPLOYPATH
-        - /bin/cp -R include $DEPLOYPATH
-        - /bin/cp -R screenshots $DEPLOYPATH
-        - /bin/cp -R static $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/lucianma/public_html/
+    - /bin/cp *.php $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R include $DEPLOYPATH
+    - /bin/cp -R screenshots $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
