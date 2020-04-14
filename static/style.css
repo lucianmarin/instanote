@@ -78,11 +78,9 @@ a {
 	bottom: 0;
 }
 	.showcase img {
-		left: calc(50% - 170px);
-		top: calc(50% - 170px);
+		left: calc(50% - 160px);
+		top: calc(50% - 160px);
 		position: relative;
-		border-radius: 20px;
-		border: rgba(128,128,128,0.25) 10px solid;
 		cursor: zoom-out;
 	}
 
@@ -100,6 +98,7 @@ a {
 .menu {
 	overflow: hidden;
 	padding: 10px 0;
+	padding-top: 20px;
 	text-transform: lowercase;
 }
 
@@ -276,22 +275,6 @@ input.key {
 		color: var(--gray);
 	}
 
-.shots {
-	margin-left: 52px;
-	margin-bottom: 10px;
-	overflow: hidden;
-}
-	.shots img {
-		height: 100%;
-		width: 49%;
-	}
-	.shots img:first-child {
-		float: left;
-	}
-	.shots img:last-child {
-		float: right;
-	}
-
 .meta {
 	color: var(--silver);
 	font-size: var(--caps);
@@ -319,6 +302,8 @@ input.key {
 	color: var(--silver);
 	font-size: var(--caps);
 	letter-spacing: 1px;
+	padding: 10px 0;
+	padding-bottom: 20px;
 	text-transform: uppercase;
 }
 	.footer a {
@@ -328,7 +313,7 @@ input.key {
 		padding: 0 3px;
 	}
 	.footer p {
-		padding: 10px var(--percent);
+		padding: 0 var(--percent);
 	}
 
 @font-face {

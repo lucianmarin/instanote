@@ -23,7 +23,7 @@ function show(product) {
 		document.body.removeChild(showcase);
 	}
 	var image = document.createElement('img');
-	image.src = "/screenshots/" + product + "-1.jpg";
+	image.src = "/screenshots/" + product + ".jpg";
 	image.height = "320"
 	image.width = "320"
 	showcase.appendChild(image);
