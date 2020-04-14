@@ -12,6 +12,7 @@ html {
 	--white: #fff;
 	--black: #000;
 	--whitesmoke: #f0f0f0;
+	--whitesilver: #e0e0e0;
 	--gainsboro: #d0d0d0;
 }
 
@@ -22,6 +23,7 @@ html {
 		--white: #000;
 		--black: #fff;
 		--whitesmoke: #202020;
+		--whitesilver: #101010;
 		--gainsboro: #404040;
 	}
 }
@@ -78,8 +80,9 @@ a {
 	bottom: 0;
 }
 	.showcase img {
-		left: calc(50% - 160px);
-		top: calc(50% - 160px);
+		border: var(--silver) 2px solid;
+		left: calc(50% - 162px);
+		top: calc(50% - 162px);
 		position: relative;
 		cursor: zoom-out;
 	}
@@ -96,9 +99,11 @@ a {
 }
 
 .menu {
+	border-bottom: var(--whitesilver) 1px solid;
 	overflow: hidden;
 	padding: 10px 0;
 	padding-top: 20px;
+	padding-bottom: 9px;
 	text-transform: lowercase;
 }
 
@@ -145,7 +150,7 @@ textarea, input {
 	appearance: none;
 	background-color: var(--white);
 	border: 0 none;
-	border-bottom: var(--gainsboro) 1px solid;
+	border-bottom: var(--silver) 1px dotted;
 	border-radius: 0;
 	color: var(--black);
 	display: block;
@@ -161,12 +166,12 @@ input[type=submit] {
 	appearance: none;
 	float: right;
 	cursor: pointer;
-	color: var(--silver);
+	color: var(--gray);
 	padding: 3px 10px;
 	background-color: var(--white);
 	border: var(--gainsboro) 1px solid;
 	border-radius: 3px;
-	font-size: 10px;
+	font-size: var(--caps);
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin-bottom: 5px;
@@ -174,9 +179,9 @@ input[type=submit] {
 	transition: border-color 0.5s;
 	width: auto;
 }
-	input[type=submit]:hover {
+	/* input[type=submit]:hover {
 		border-color: var(--silver);
-	}
+	} */
 
 textarea.last, input.last {
 	border-bottom: 0 none;
@@ -187,9 +192,8 @@ input.key {
 	margin-bottom: 10px;
 }
 
-
 .content {
-	border-bottom: var(--gainsboro) 1px solid;
+	border-bottom: var(--silver) 1px dotted;
 	color: var(--gray);
 	overflow: hidden;
 	padding: 10px var(--percent);
@@ -223,7 +227,7 @@ input.key {
 	white-space: nowrap;
 }
 	.pages a {
-		border-right: var(--gainsboro) 1px dashed;
+		border-right: var(--silver) 1px dotted;
 		color: var(--silver);
 		padding: 0 7px;
 	}
@@ -239,7 +243,7 @@ input.key {
 	}
 
 .search {
-	border-bottom: var(--gainsboro) 1px solid;
+	border-bottom: var(--silver) 1px dotted;
 	padding: 10px var(--percent);
 }
 	.search input {
@@ -256,7 +260,7 @@ input.key {
 		margin-bottom: 0;
 	}
 	.product img {
-		border: var(--gainsboro) 1px solid;
+		border: var(--whitesilver) 1px solid;
 		float: left;
 		margin: -1px 0;
 		margin-left: -52px;
@@ -299,11 +303,13 @@ input.key {
 	}
 
 .footer {
+	border-top: var(--whitesilver) 1px solid;
 	color: var(--silver);
 	font-size: var(--caps);
 	letter-spacing: 1px;
 	padding: 10px 0;
 	padding-bottom: 20px;
+	padding-top: 9px;
 	text-transform: uppercase;
 }
 	.footer a {

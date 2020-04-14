@@ -31,13 +31,22 @@
 <? include 'include/header.php'; ?>
 <? include 'include/menu.php'; ?>
 
+<script>
+	function loaded() {
+		var desc = document.getElementById('desc');
+		var note = document.getElementById('note');
+		expand(desc);
+		expand(note);
+	}
+</script>
+
 <div class="main">
 	<div class="center">
 		<form action="<?= $self ?>" method="post" autocomplete="off">
 			<input type="url" name="url" placeholder="URL" value="<?= $new['url'] ?>" required />
 			<input type="text" name="title" placeholder="Title" value="<?= $new['title'] ?>" required />
-			<textarea name="quote" placeholder="Quote" rows="4" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['quote'] ?></textarea>
-			<textarea class="last" name="note" placeholder="Note" rows="1" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['note'] ?></textarea>
+			<textarea id="desc" name="quote" placeholder="Quote" rows="4" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['quote'] ?></textarea>
+			<textarea id="note" class="last" name="note" placeholder="Note" rows="1" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['note'] ?></textarea>
 			<input type="hidden" name="id" value="<?= $id ?>" />
 			<input type="submit" value="Publish" />
 		</form>

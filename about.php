@@ -6,7 +6,7 @@
 	<div class="center">
 		<div class="content">
 			<p class="meta">Hi, there!</p>
-			<p>I’m Lucian and I live in <a href="https://en.wikipedia.org/wiki/Bucharest">Bucharest</a>, <a href="https://en.wikipedia.org/wiki/Romania">Romania</a>. I'm mostly programming backends these days, but I started as a web designer and worked as frontend engineer for a little bit. I enjoy coding in Python (Django, Falcon, Pytest), JavaScript (Vanilla, Mithril), PHP, Swift and SQL (Postgres, Clickhouse, Oracle).</p>
+			<p>I’m Lucian and I live in <a href="https://en.wikipedia.org/wiki/Bucharest">Bucharest</a>, <a href="https://en.wikipedia.org/wiki/Romania">Romania</a>. I'm mostly programming backends these days, but I started as a web designer and worked as frontend engineer for a bit. I enjoy coding in Python (Django, Falcon, Pytest), JavaScript (Vanilla, Mithril), PHP, Swift and SQL (Postgres, Clickhouse, Oracle).</p>
 			<p style="margin-top: 5px;">Designing user interfaces on a Mac remains a hobby. I’m striving for perfection and I pay attention to the tiniest details in everything I'm trying to achieve.<p>
 			<p style="margin-top: 5px;">I'm accepting donations using <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">PayPal Donate</a> or on <a href="https://paypal.me/lucianmarin">PayPal Me</a>. I don't accept any form of cryptocurrency. Donations are used to pay for the <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> cloud server. Thank you!</p>
 		</div>
