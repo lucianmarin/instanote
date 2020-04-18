@@ -9,7 +9,6 @@ deployment:
     - /bin/cp -R screenshots $DEPLOYPATH
     - /bin/cp -R static $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
-    - /bin/cp contact.php $DEPLOYPATH
     - /bin/cp edit.php $DEPLOYPATH
     - /bin/cp delete.php $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
