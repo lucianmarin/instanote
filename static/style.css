@@ -80,9 +80,9 @@ a {
 	bottom: 0;
 }
 	.showcase img {
-		border: var(--silver) 2px solid;
-		left: calc(50% - 162px);
-		top: calc(50% - 162px);
+		border: rgba(128,128,128,0.2) 5px solid;
+		left: calc(50% - 165px);
+		top: calc(50% - 165px);
 		position: relative;
 		cursor: zoom-out;
 	}
@@ -260,7 +260,7 @@ input.key {
 		margin-bottom: 0;
 	}
 	.product img {
-		border: var(--whitesilver) 1px solid;
+		border: var(--silver) 1px dotted;
 		float: left;
 		margin: -1px 0;
 		margin-left: -52px;

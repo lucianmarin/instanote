@@ -11,12 +11,12 @@
 	<link rel="icon" sizes="192x192" type="image/png" href="/images/plus-white.png">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="/rss.php">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=13">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=14">
 	<script type="text/javascript" src="/static/script.js?v=9" async defer></script>
 </head>
 
-<? if(strpos($self, 'add')): ?>
-	<body onload="loaded()">
+<? if (strpos($self, 'edit')): ?>
+	<body onload="bodyLoad()">
 <? else: ?>
 	<body>
 <? endif; ?>

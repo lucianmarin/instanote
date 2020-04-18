@@ -26,13 +26,13 @@
 	<div class="content">
 			<div class="meta">
 				<? if (isset($previous_id)): ?>
-					<a href="/note.php?id=<?= $previous_id ?>">previously</a>
+					<a href="/note.php?id=<?= $previous_id ?>">Previously</a>
 				<? endif; ?>
 				<? if (isset($previous_id) and isset($next_id)): ?>
 					<b>&frasl;</b>
 				<? endif; ?>
 				<? if (isset($next_id)): ?>
-					<a href="/note.php?id=<?= $next_id ?>">up next</a>
+					<a href="/note.php?id=<?= $next_id ?>">Up next</a>
 				<? endif; ?>
 			</div>
 		</div>

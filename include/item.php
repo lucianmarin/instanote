@@ -5,7 +5,7 @@
 		</a>
 		<b>&frasl;</b>
 		<? if ($auth): ?>
-			<a href="/add.php?id=<?= $id ?>">edit</a>
+			<a href="/edit.php?id=<?= $id ?>">edit</a>
 			<b>&frasl;</b>
 			<a onclick="erase(this)">erase</a>
 			<a class="hidden" href="/delete.php?id=<?= $id ?>">yes</a>
