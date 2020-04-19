@@ -17,7 +17,11 @@
 			<? if($auth): ?>
 				<a
 					class="<? if (strpos($self, 'edit')): ?>selected<? endif; ?>"
-					href="/edit.php">Add</a>
+					<? if (strpos($self, 'edit') and $id): ?>
+						href="/edit.php?id=<?= $id ?>">Edit</a>
+					<? else: ?>
+						href="/edit.php">Add</a>
+					<? endif; ?>
 			<? endif; ?>
 		</h1>
 	</div>
