@@ -2,16 +2,19 @@
 	# create auth.php with $password m5 string
 	include 'include/auth.php';
 
-	ini_set('zlib.output_compression_level', 1);
-	if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
-		ob_start("ob_gzhandler");
-	else
-		ob_start();
+	// # enable compression
+	// ini_set('zlib.output_compression_level', 1);
+	// if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
+	// 	ob_start("ob_gzhandler");
+	// else
+	// 	ob_start();
 
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
+	// # enable error reporting
+	// error_reporting(E_ALL);
+	// ini_set('display_errors', 1);
+	// ini_set('display_startup_errors', 1);
 
+	# set timezone for generating ids
 	date_default_timezone_set('Europe/Bucharest');
 
 	$self = $_SERVER['PHP_SELF'];

@@ -40,7 +40,15 @@
 		</div>
 		<div class="content">
 			<p class="meta">Tiny resume</p>
+			<p class="link">Present</p>
+			<p class="link">Verifone</p>
+			<p class="link">&nbsp;</p>
+			<p class="link">2Checkout</p>
+			<p class="link">&nbsp;</p>
+			<p class="link">Avangate</p>
 			<p class="link">2018&ndash;2019</p>
+			<p class="link">Dell</p>
+			<p class="link">&nbsp;</p>
 			<p class="link">Secureworks</p>
 			<p class="link">&nbsp;</p>
 			<p class="link">Amgen</p>
