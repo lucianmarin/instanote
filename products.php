@@ -5,14 +5,6 @@
 <div class="main">
 	<div class="center">
 		<div class="content">
-			<div class="product">
-				<p>
-					<strong>Always free&trade;</strong> &mdash;
-					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
-				</p>
-			</div>
-		</div>
-		<div class="content">
 			<p class="meta">Web Apps</p>
 			<div class="product">
 				<img src="/images/dubfi.png" width="40" height="40" onclick="show('dubfi')">
@@ -63,19 +55,6 @@
 				<p>Calculates the contrast ratio between two colors.</p>
 			</div>
 		</div>
-		<!--
-		<div class="content">
-			<p class="meta">Donations</p>
-			<div class="product">
-				<img src="/images/paypal.png" width="40" height="40" onclick="show('qrcode')">
-				<p>
-					<strong>Always free&trade;</strong> &mdash;
-					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
-				</p>
-				<p>Donate with PayPal to keep high quality software free.</p>
-			</div>
-		</div>
-		-->
 		<div class="content">
 			<p class="meta">Open Source</p>
 			<div class="product">
