@@ -169,7 +169,7 @@ input[type=submit] {
 	color: var(--gray);
 	padding: 3px 10px;
 	background-color: var(--white);
-	border: var(--gainsboro) 1px solid;
+	border: var(--silver) 1px dotted;
 	border-radius: 3px;
 	font-size: var(--caps);
 	letter-spacing: 1px;
