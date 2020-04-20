@@ -1,17 +1,18 @@
 {
-    "lang": "en",
-    "name": "Lucian Marin",
-    "short_name": "Lucian Marin",
-    "description": "Notes by Lucian Marin",
-    "icons": [
-        {
-            "src": "/images/plus-white.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        }
-    ],
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "portrait",
-    "status": "ok"
+	"lang": "en",
+	"name": "Lucian Marin",
+	"short_name": "Lucian Marin",
+	"description": "Notes by Lucian Marin",
+	"icons": [
+		{
+			"src": "/images/plus-white.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable any"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"status": "ok"
 }

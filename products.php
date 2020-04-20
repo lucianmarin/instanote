@@ -3,67 +3,90 @@
 <? include 'include/menu.php'; ?>
 
 <div class="main">
-    <div class="center">
-        <div class="lines">
-            <p class="meta">Mac Apps</p>
-            <div class="product">
-                <img src="/images/bicolor.png" width="40" height="40" />
-                <h4>
-                    <a href="https://sellfy.com/p/wEP8/">Bicolor</a>
-                    &mdash;
-                    <b>$3.90</b>
-                </h4>
-                <p>Contrast comparison tool for Mac.</p>
-                <p>Calculates the contrast ratio between two colors.</p>
-            </div>
-            <div class="product">
-                <img src="/images/multicolor.png" width="40" height="40" />
-                <h4>
-                    <a href="https://sellfy.com/p/2sd6/">Multicolor</a>
-                    &mdash;
-                    <b>$4.90</b>
-                </h4>
-                <p>Color schemes generator for Mac.</p>
-                <p>Generates five distinct colors and their luminance.</p>
-            </div>
-            <div class="product">
-                <img src="/images/monochrome.png" width="40" height="40" />
-                <h4>
-                    <a href="https://sellfy.com/p/CCC9">Monochrome 5</a>
-                    &mdash;
-                    <b>$4.90</b>
-                </h4>
-                <p>Mobile browser for Mac.</p>
-                <p>Helps you design responsive sites and browse the mobile web comfortably.</p>
-            </div>
-        </div>
-        <div class="lines">
-            <p class="meta">iPhone Apps</p>
-            <div class="product">
-                <img src="/images/monochrome.png" width="40" height="40" />
-                <h4>
-                    <a href="https://itunes.apple.com/us/app/monochrome-browser/id1300506566">Monochrome</a>
-                    &mdash;
-                    <b>$0.99</b>
-                </h4>
-                <p>Fullscreen browser designed for iPhone.</p>
-                <p>The navigation is completely gesture based. It's powered by WKWebView and supports 3D Touch.</p>
-            </div>
-        </div>
-        <div class="lines">
-            <p class="meta">Web Apps</p>
-            <div class="product">
-                <img src="/images/sublevel.png" width="40" height="40" />
-                <h4>
-                    <a href="https://sublevel.net/">Sublevel</a>
-                    &mdash;
-                    <b>free</b>
-                </h4>
-                <p>Tiny, but mighty social network.</p>
-                <p>Text-only networking that make sense, it's friendly and easy to update and reply to others.</p>
-            </div>
-        </div>
-    </div>
+	<div class="center">
+		<div class="content">
+			<p class="meta">Web Apps</p>
+			<div class="product">
+				<img src="/images/dubfi.png" width="40" height="40" onclick="show('dubfi')">
+				<p>
+					<strong>DubFi</strong> &mdash;
+					<a href="https://dubfi.com/search">dubfi.com</a>
+				</p>
+				<p>Tiny, but mighty social network.</p>
+				<p>240 characters is all we need to express ourselves.</p>
+			</div>
+			<div class="product">
+				<img src="/images/newsfi.png" width="40" height="40" onclick="show('newsfi')">
+				<p>
+					<strong>NewsFi</strong> &mdash;
+					<a href="https://news.dubfi.com/">news.dubfi.com</a>
+				</p>
+				<p>24/7 Breaking News</p>
+				<p>Quality news feeds and stories ranked by Facebook.</p>
+			</div>
+		</div>
+		<div class="content">
+			<p class="meta">Mac Apps</p>
+			<div class="product">
+				<img src="/images/monochrome.png" width="40" height="40" onclick="show('monochrome')">
+				<p>
+					<strong>Monochrome 5.2</strong> &mdash;
+					<a href="https://src.lucianmarin.com/apps/monochrome-5.2.dmg">download</a>
+				</p>
+				<p>Mobile browser for Mac.</p>
+				<p>Helps you design responsive sites and browse the mobile web from the comfort of your Mac.</p>
+			</div>
+			<div class="product">
+				<img src="/images/multicolor.png" width="40" height="40" onclick="show('multicolor')">
+				<p>
+					<strong>Multicolor 1.1</strong> &mdash;
+					<a href="https://src.lucianmarin.com/apps/multicolor-1.1.dmg">download</a>
+				</p>
+				<p>Color schemes generator for Mac.</p>
+				<p>Generates five distinct colors and their luminance.</p>
+			</div>
+			<div class="product">
+				<img src="/images/bicolor.png" width="40" height="40" onclick="show('bicolor')">
+				<p>
+					<strong>Bicolor 1.2</strong> &mdash;
+					<a href="https://src.lucianmarin.com/apps/bicolor-1.2.dmg">download</a>
+				</p>
+				<p>Contrast comparison tool for Mac.</p>
+				<p>Calculates the contrast ratio between two colors.</p>
+			</div>
+		</div>
+		<div class="content">
+			<p class="meta">Open Source</p>
+			<div class="product">
+				<p>
+					<strong>Instanote</strong> &mdash;
+					<a href="https://github.com/lucianmarin/instanote">repository</a>
+				</p>
+				<p>Note and link sharing with PHP and JSON.</p>
+			</div>
+			<div class="product">
+				<p>
+					<strong>Pressdown</strong> &mdash;
+					<a href="https://github.com/lucianmarin/pressdown">repository</a>
+				</p>
+				<p>Blogging with PHP, Markdown and Jekyll type posts.</p>
+			</div>
+			<div class="product">
+				<p>
+					<strong>Pybench</strong> &mdash;
+					<a href="https://github.com/lucianmarin/pybench">repository</a>
+				</p>
+				<p>Python benchmark inspired by Geekbench.</p>
+			</div>
+			<div class="product">
+				<p>
+					<strong>Pyshell</strong> &mdash;
+					<a href="https://github.com/lucianmarin/pyshell">repository</a>
+				</p>
+				<p>Turns iPython into an interactive shell.</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <? include 'include/footer.php'; ?>

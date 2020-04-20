@@ -1,51 +1,43 @@
 <?php
-    include 'include/context.php';
+	include 'include/context.php';
 
-    $id = isset($_GET['id']) ? $_GET['id'] : 0;
-    $posts = restore();
-    $count = count($posts);
+	$notes = get_notes();
+	$count = count($notes);
+	$ids = array_keys($notes);
+	$get_id = isset($_GET['id']) ? $_GET['id'] : null;
+	$id = is_numeric($get_id) ? $get_id : $ids[0];
+	$note = $notes[$id];
 
-    $post = $posts[0];
-    $next = null;
-    $previous = $posts[1];
-
-    foreach ($posts as $key => $item) {
-        if ($item['created'] == $id) {
-            $post = $item;
-            if ($key != 0) {
-                $next = $posts[$key - 1];
-            }
-            if ($key != $count - 1) {
-                $previous = $posts[$key + 1];
-            }
-        }
-    }
+	foreach ($ids as $index => $key) {
+		if ($key == $id and $index != 0) {
+			$next_id = $ids[$index - 1];
+		}
+		if ($key == $id and $index != $count - 1) {
+			$previous_id = $ids[$index + 1];
+		}
+	}
 ?>
 
 <? include 'include/header.php'; ?>
 <? include 'include/menu.php'; ?>
 
 <div class="main">
-    <div class="center">
-        <? include 'include/item.php'; ?>
-        <div class="content">
-            <div class="meta">
-                <? if (isset($previous)): ?>
-                    <a class="link" href="/note.php?id=<?= $previous['created'] ?>">
-                        previously
-                    </a>
-                <? endif; ?>
-                <? if (isset($previous) and isset($next)): ?>
-                    <b>&frasl;</b>
-                <? endif; ?>
-                <? if (isset($next)): ?>
-                    <a class="link" href="/note.php?id=<?= $next['created'] ?>">
-                        up next
-                    </a>
-                <? endif; ?>
-            </div>
-        </div>
-    </div>
+	<div class="center">
+	<div class="content">
+			<div class="meta">
+				<? if (isset($previous_id)): ?>
+					<a href="/note.php?id=<?= $previous_id ?>">Previously</a>
+				<? endif; ?>
+				<? if (isset($previous_id) and isset($next_id)): ?>
+					<b>&frasl;</b>
+				<? endif; ?>
+				<? if (isset($next_id)): ?>
+					<a href="/note.php?id=<?= $next_id ?>">Up next</a>
+				<? endif; ?>
+			</div>
+		</div>
+		<? include 'include/item.php'; ?>
+	</div>
 </div>
 
 <? include 'include/footer.php'; ?>

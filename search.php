@@ -1,42 +1,44 @@
 <?php
-    include 'include/context.php';
+	include 'include/context.php';
 
-    $q = isset($_GET['q']) ? $_GET['q'] : '';
-    $posts = restore();
-    $results = array();
+	$q = isset($_GET['q']) ? $_GET['q'] : '';
+	$notes = get_notes();
+	$results = array();
 
-    if ($q) {
-        foreach ($posts as $post) {
-            $content = sprintf("%s %s %s %s", $post['url'], $post['title'], $post['quote'], $post['note']);
-            if (strpos(strtolower($content), strtolower($q))) {
-                array_push($results, $post);
-            }
-        }
-        $count = count($results);
-        $label = 'results';
-        $results = array_slice($results, 0, 5, true);
-    } else {
-        foreach (array_rand($posts, 5) as $key) {
-            array_push($results, $posts[$key]);
-        }
-        $count = 5;
-        $label = 'random';
-    }
+	if ($q) {
+		foreach ($notes as $id => $note) {
+			$content = sprintf(
+				"%s %s %s %s",
+				$note['url'], $note['title'], $note['quote'], $note['note']
+			);
+			if (strpos(strtolower($content), strtolower($q))) {
+				$results[$id] = $note;
+			}
+		}
+		$label = count($results).' search results';
+		$results = array_slice($results, 0, 5, true);
+	} else {
+		$keys = array_rand($notes, 5);
+		foreach ($keys as $key) {
+			$results[$key] = $notes[$key];
+		}
+		$label = '5 random notes';
+	}
 ?>
 
 <? include 'include/header.php'; ?>
 <? include 'include/menu.php'; ?>
 
 <div class="main">
-    <div class="center">
-        <form class="search" action="/search.php" method="get" autocomplete="off">
-            <input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
-        </form>
-        <? foreach ($results as $post): ?>
-            <? include 'include/item.php'; ?>
-        <? endforeach; ?>
-        <div class="info"><?= $count.' '.$label ?></div>
-    </div>
+	<div class="center">
+		<form class="search" action="/search.php" method="get" autocomplete="off">
+			<input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
+		</form>
+		<? foreach ($results as $id => $note): ?>
+			<? include 'include/item.php'; ?>
+		<? endforeach; ?>
+		<div class="status"><?= $label ?></div>
+	</div>
 </div>
 
 <? include 'include/footer.php'; ?>
