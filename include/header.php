@@ -15,8 +15,8 @@
 	<script type="text/javascript" src="/static/script.js?v=9" async defer></script>
 </head>
 
-<? if (strpos($self, 'edit')): ?>
+<?php if (strpos($self, 'edit')): ?>
 	<body onload="bodyLoad()">
-<? else: ?>
+<?php else: ?>
 	<body>
-<? endif; ?>
+<?php endif; ?>

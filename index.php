@@ -16,22 +16,22 @@
 	$posts = array_slice($posts, $offset, $limit, true);
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <div class="main">
 	<div class="center">
-		<? foreach ($posts as $id => $note): ?>
-			<? include 'include/item.php'; ?>
-		<? endforeach; ?>
+		<?php foreach ($posts as $id => $note): ?>
+			<?php include 'include/item.php'; ?>
+		<?php endforeach; ?>
 		<div class="content">
 			<div class="pages">
-				<? foreach (range(1, $pages) as $number): ?>
-					<a class="<? if ($number == $page): ?>selected<? endif; ?>" href="/?p=<?= $number ?>"><?= $number ?></a>
-				<? endforeach; ?>
+				<?php foreach (range(1, $pages) as $number): ?>
+					<a class="<?php if ($number == $page): ?>selected<?php endif; ?>" href="/?p=<?= $number ?>"><?= $number ?></a>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

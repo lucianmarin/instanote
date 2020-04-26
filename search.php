@@ -26,19 +26,19 @@
 	}
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <div class="main">
 	<div class="center">
 		<form class="search" action="/search.php" method="get" autocomplete="off">
 			<input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
 		</form>
-		<? foreach ($results as $id => $note): ?>
-			<? include 'include/item.php'; ?>
-		<? endforeach; ?>
+		<?php foreach ($results as $id => $note): ?>
+			<?php include 'include/item.php'; ?>
+		<?php endforeach; ?>
 		<div class="status"><?= $label ?></div>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

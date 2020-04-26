@@ -18,26 +18,26 @@
 	}
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <div class="main">
 	<div class="center">
 	<div class="content">
 			<div class="meta">
-				<? if (isset($previous_id)): ?>
+				<?php if (isset($previous_id)): ?>
 					<a href="/note.php?id=<?= $previous_id ?>">Previously</a>
-				<? endif; ?>
-				<? if (isset($previous_id) and isset($next_id)): ?>
+				<?php endif; ?>
+				<?php if (isset($previous_id) and isset($next_id)): ?>
 					<b>&frasl;</b>
-				<? endif; ?>
-				<? if (isset($next_id)): ?>
+				<?php endif; ?>
+				<?php if (isset($next_id)): ?>
 					<a href="/note.php?id=<?= $next_id ?>">Up next</a>
-				<? endif; ?>
+				<?php endif; ?>
 			</div>
 		</div>
-		<? include 'include/item.php'; ?>
+		<?php include 'include/item.php'; ?>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

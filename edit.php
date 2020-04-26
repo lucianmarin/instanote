@@ -28,8 +28,8 @@
 	}
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <script>
 	function bodyLoad() {
@@ -48,9 +48,9 @@
 			<textarea id="desc" name="quote" placeholder="Quote" rows="4" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['quote'] ?></textarea>
 			<textarea id="note" class="last" name="note" placeholder="Note" rows="1" cols="80" oninput="expand(this)" onkeydown="prevent(event)"><?= $new['note'] ?></textarea>
 			<input type="hidden" name="id" value="<?= $id ?>" />
-			<input type="submit" value="<? if ($id): ?>Update<? else: ?>Publish<? endif; ?>" />
+			<input type="submit" value="<?php if ($id): ?>Update<?php else: ?>Publish<?php endif; ?>" />
 		</form>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>
