@@ -55,37 +55,6 @@
 				<p>Calculates the contrast ratio between two colors.</p>
 			</div>
 		</div>
-		<div class="content">
-			<p class="meta">Open Source</p>
-			<div class="product">
-				<p>
-					<strong>Instanote</strong> &mdash;
-					<a href="https://github.com/lucianmarin/instanote">repository</a>
-				</p>
-				<p>Note and link sharing with PHP and JSON.</p>
-			</div>
-			<div class="product">
-				<p>
-					<strong>Pressdown</strong> &mdash;
-					<a href="https://github.com/lucianmarin/pressdown">repository</a>
-				</p>
-				<p>Blogging with PHP, Markdown and Jekyll type posts.</p>
-			</div>
-			<div class="product">
-				<p>
-					<strong>Pybench</strong> &mdash;
-					<a href="https://github.com/lucianmarin/pybench">repository</a>
-				</p>
-				<p>Python benchmark inspired by Geekbench.</p>
-			</div>
-			<div class="product">
-				<p>
-					<strong>Pyshell</strong> &mdash;
-					<a href="https://github.com/lucianmarin/pyshell">repository</a>
-				</p>
-				<p>Turns iPython into an interactive shell.</p>
-			</div>
-		</div>
 	</div>
 </div>
 
