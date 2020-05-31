@@ -7,22 +7,22 @@
 		<div class="content">
 			<p class="meta">Web Apps</p>
 			<div class="product">
-				<img src="/images/dubfi.png" width="40" height="40" onclick="show('dubfi')">
+				<img src="/images/radfi.png" width="40" height="40" onclick="show('newsfi')">
 				<p>
-					<strong>DubFi</strong> &mdash;
-					<a href="https://dubfi.com/search">dubfi.com</a>
+					<strong>Rad-Fi</strong> &mdash;
+					<a href="https://radfi.com/">radfi.com</a>
 				</p>
-				<p>Tiny, but mighty social network.</p>
-				<p>240 characters is all we need to express ourselves.</p>
+				<p>Rad news from Radio Fidelity.</p>
+				<p>Quality feeds and news stories ranked by Facebook likes.</p>
 			</div>
 			<div class="product">
-				<img src="/images/newsfi.png" width="40" height="40" onclick="show('newsfi')">
+				<img src="/images/dubfi.png" width="40" height="40" onclick="show('dubfi')">
 				<p>
-					<strong>NewsFi</strong> &mdash;
-					<a href="https://news.dubfi.com/">news.dubfi.com</a>
+					<strong>Subreply</strong> &mdash;
+					<a href="https://subreply.com">subreply.com</a>
 				</p>
-				<p>24/7 Breaking News</p>
-				<p>Quality news feeds and stories ranked by Facebook.</p>
+				<p>Tiny, but mighty social network.</p>
+				<p>Infinite replies in 480 characters is all we need to communicate on the web.</p>
 			</div>
 		</div>
 		<div class="content">
