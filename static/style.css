@@ -264,6 +264,8 @@ input.key {
 		float: left;
 		margin: -1px 0;
 		margin-left: -52px;
+	}
+	.product img.zoom {
 		cursor: zoom-in;
 	}
 	.product strong {

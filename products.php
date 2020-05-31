@@ -7,7 +7,7 @@
 		<div class="content">
 			<p class="meta">Web Apps</p>
 			<div class="product">
-				<img src="/images/radfi.png" width="40" height="40" onclick="show('newsfi')">
+				<img src="/images/radfi.png" width="40" height="40">
 				<p>
 					<strong>Rad-Fi</strong> &mdash;
 					<a href="https://radfi.com/">radfi.com</a>
@@ -16,7 +16,7 @@
 				<p>Quality feeds and news stories ranked by Facebook likes.</p>
 			</div>
 			<div class="product">
-				<img src="/images/dubfi.png" width="40" height="40" onclick="show('dubfi')">
+				<img src="/images/dubfi.png" width="40" height="40">
 				<p>
 					<strong>Subreply</strong> &mdash;
 					<a href="https://subreply.com">subreply.com</a>
@@ -28,7 +28,7 @@
 		<div class="content">
 			<p class="meta">Mac Apps</p>
 			<div class="product">
-				<img src="/images/monochrome.png" width="40" height="40" onclick="show('monochrome')">
+				<img class="zoom" src="/images/monochrome.png" width="40" height="40" onclick="show('monochrome')">
 				<p>
 					<strong>Monochrome 5.2</strong> &mdash;
 					<a href="https://src.lucianmarin.com/apps/monochrome-5.2.dmg">download</a>
@@ -46,7 +46,7 @@
 				<p>Generates five distinct colors and their luminance.</p>
 			</div>
 			<div class="product">
-				<img src="/images/bicolor.png" width="40" height="40" onclick="show('bicolor')">
+				<img class="zoom" src="/images/bicolor.png" width="40" height="40" onclick="show('bicolor')">
 				<p>
 					<strong>Bicolor 1.2</strong> &mdash;
 					<a href="https://src.lucianmarin.com/apps/bicolor-1.2.dmg">download</a>
@@ -58,7 +58,7 @@
 		<div class="content">
 			<p class="meta">Other Apps</p>
 			<div class="product">
-				<img src="/images/paypal.png" width="40" height="40" onclick="show('qrcode')">
+				<img src="/images/paypal.png" width="40" height="40">
 				<p>
 					<strong>Always free&trade;</strong> &mdash;
 					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
