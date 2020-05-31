@@ -37,6 +37,9 @@
 				<a href="https://soundcloud.com/lucianmarin/likes">SoundCloud</a>
 			</p>
 			<p class="link">
+				<a href="https://open.spotify.com/user/lucianmarin">Spotify</a>
+			</p>
+			<p class="link">
 				<a href="https://twitter.com/lucianmarin">Twitter</a>
 			</p>
 		</div>
