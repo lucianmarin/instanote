@@ -269,9 +269,6 @@ input.key {
 	.product strong {
 		color: var(--black);
 	}
-	.product a {
-		color: var(--gray)
-	}
 	.product p {
 		color: var(--silver);
 	}

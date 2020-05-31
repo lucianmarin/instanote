@@ -31,6 +31,9 @@
 				<a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a>
 			</p>
 			<p class="link">
+				<a href="https://www.paypal.me/lucianmarin">PayPal</a>
+			</p>
+			<p class="link">
 				<a href="https://soundcloud.com/lucianmarin/likes">SoundCloud</a>
 			</p>
 			<p class="link">
