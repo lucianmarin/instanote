@@ -13,16 +13,16 @@
 					<a href="https://radfi.com/">radfi.com</a>
 				</p>
 				<p>Rad news from Radio Fidelity.</p>
-				<p>Quality feeds and news stories ranked by Facebook likes.</p>
+				<p>High quality news stories ranked using Facebook API.</p>
 			</div>
 			<div class="product">
-				<img src="/images/dubfi.png" width="40" height="40">
+				<img src="/images/sub.png" width="40" height="40">
 				<p>
 					<strong>Subreply</strong> &mdash;
 					<a href="https://subreply.com">subreply.com</a>
 				</p>
 				<p>Tiny, but mighty social network.</p>
-				<p>Infinite replies in 480 characters is all we need to communicate on the web.</p>
+				<p>Endless threads of replies is all we need to communicate.</p>
 			</div>
 		</div>
 		<div class="content">
