@@ -64,7 +64,7 @@
 					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
 				</p>
 				<p>Support for hosting new apps on <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> is appreciated.</p>
-				<p>Find other great projects on <a href="https://github.com/lucianmarin">my GitHub</a> like Pressdown, Instanote, PyBench, PyShell, the Journalist WP theme.</p>
+				<p>Great projects like Pressdown, Instanote, PyBench, PyShell, the Journalist WP theme are available <a href="https://github.com/lucianmarin">my GitHub</a>.</p>
 			</div>
 		</div>
 	</div>

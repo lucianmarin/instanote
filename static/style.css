@@ -274,8 +274,14 @@ input.key {
 	.product p {
 		color: var(--silver);
 	}
+	.product p a {
+		color: var(--gray);
+	}
 	.product p:last-child {
 		color: var(--gray);
+	}
+	.product p:last-child a {
+		color: var(--black)
 	}
 
 .meta {
