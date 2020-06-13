@@ -21,7 +21,7 @@
 					<strong>Subreply</strong> &mdash;
 					<a href="https://subreply.com">subreply.com</a>
 				</p>
-				<p>Tiny, but mighty social network.</p>
+				<p>Tiny, but mighty chat network.</p>
 				<p>Endless threads of replies is all we need to communicate.</p>
 			</div>
 		</div>
@@ -56,15 +56,15 @@
 			</div>
 		</div>
 		<div class="content">
-			<p class="meta">Other Apps</p>
+			<p class="meta">Other Stuff</p>
 			<div class="product">
-				<img src="/images/paypal.png" width="40" height="40">
+				<img src="/images/lm.png" width="40" height="40">
 				<p>
-					<strong>Always free&trade;</strong> &mdash;
+					<strong>Innovations</strong> &mdash;
 					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
 				</p>
-				<p>Donate with PayPal to keep high quality software free.</p>
-				<p>The macOS apps are open sourced on <a href="https://github.com/lucianmarin">GitHub</a> along with other awesome projects like Pressdown, Instanote, PyBench, PyShell, The Journalist WordPress theme.</p>
+				<p>Support for hosting new apps on <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> is appreciated.</p>
+				<p>Find other great projects on <a href="https://github.com/lucianmarin">my GitHub</a> like Pressdown, Instanote, PyBench, PyShell, the Journalist WP theme.</p>
 			</div>
 		</div>
 	</div>
