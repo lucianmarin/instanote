@@ -9,17 +9,17 @@
 			<div class="product">
 				<img src="/images/radfi.png" width="40" height="40">
 				<p>
-					<strong>Rad-Fi</strong> &mdash;
+					<strong>Radio Fidelity</strong> &mdash;
 					<a href="https://radfi.com/">radfi.com</a>
 				</p>
-				<p>Rad news from Radio Fidelity.</p>
-				<p>High quality news stories ranked using Facebook API.</p>
+				<p>Tune up to hourly rad news.</p>
+				<p>High quality stories ranked by Facebook.</p>
 			</div>
 			<div class="product">
 				<img src="/images/sub.png" width="40" height="40">
 				<p>
 					<strong>Subreply</strong> &mdash;
-					<a href="https://subreply.com">subreply.com</a>
+					<a href="https://subreply.com/">subreply.com</a>
 				</p>
 				<p>Tiny, but mighty chat network.</p>
 				<p>Endless threads of replies is all we need to communicate.</p>
@@ -61,10 +61,10 @@
 				<img src="/images/lm.png" width="40" height="40">
 				<p>
 					<strong>Innovations</strong> &mdash;
-					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">donate</a>
+					<a href="https://github.com/lucianmarin">github.com</a>
 				</p>
-				<p>Support for hosting new apps on <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> is appreciated.</p>
-				<p>Great projects like Pressdown, Instanote, PyBench, PyShell, the Journalist WP theme are available <a href="https://github.com/lucianmarin">my GitHub</a>.</p>
+				<p>Instanote, Pressdown, PyBench, Peculiar, Journalist...</p>
+				<p>Support the endeavour by using <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> cloud servers, donate using <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">PayPal</a> or simply signing up on <a href="https://subreply.com/">Subreply</a>.</p>
 			</div>
 		</div>
 	</div>
