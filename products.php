@@ -64,7 +64,7 @@
 					<a href="https://github.com/lucianmarin">github.com</a>
 				</p>
 				<p>Instanote, Pressdown, PyBench, Peculiar, Journalist...</p>
-				<p>Support the endeavour by using <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> cloud servers, donate using <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">PayPal</a> or simply signing up on <a href="https://subreply.com/">Subreply</a>.</p>
+				<p>Support the endeavour by using <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> cloud servers, donating using <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">PayPal</a> or simply signing up on <a href="https://subreply.com/">Subreply</a>.</p>
 			</div>
 		</div>
 	</div>
