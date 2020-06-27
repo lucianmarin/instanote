@@ -13,7 +13,7 @@
 			<p class="meta">Contact me</p>
 			<p class="link">Gmail</p>
 			<p class="link">marin.lucian</p>
-			<p class="link">Phone</p>
+			<p class="link">Chat</p>
 			<p class="link">+40 726 210 589</p>
 		</div>
 		<div class="content">
