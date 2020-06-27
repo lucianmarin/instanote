@@ -11,10 +11,10 @@
 		</div>
 		<div class="content">
 			<p class="meta">Contact me</p>
-			<p class="link">Chat</p>
-			<p class="link">+40 726 210 589</p>
 			<p class="link">Gmail</p>
 			<p class="link">marin.lucian</p>
+			<p class="link">Phone</p>
+			<p class="link">+40 726 210 589</p>
 		</div>
 		<div class="content">
 			<p class="meta">Almost social</p>
@@ -23,6 +23,9 @@
 			</p>
 			<p class="link">
 				<a href="https://github.com/lucianmarin">GitHub</a>
+			</p>
+			<p class="link">
+				<a href="https://hypem.com/lucianmarin">Hype Machine</a>
 			</p>
 			<p class="link">
 				<a href="https://instagram.com/lucianmarin/">Instagram</a>
@@ -34,13 +37,16 @@
 				<a href="https://www.paypal.me/lucianmarin">PayPal</a>
 			</p>
 			<p class="link">
-				<a href="https://soundcloud.com/lucianmarin/likes">SoundCloud</a>
+				<a href="https://soundcloud.com/lucianmarin">SoundCloud</a>
 			</p>
 			<p class="link">
 				<a href="https://open.spotify.com/user/lucianmarin">Spotify</a>
 			</p>
 			<p class="link">
 				<a href="https://twitter.com/lucianmarin">Twitter</a>
+			</p>
+			<p class="link">
+				<a href="https://t.me/lucianmarin">Telegram</a>
 			</p>
 		</div>
 		<div class="content">
