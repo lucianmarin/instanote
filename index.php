@@ -24,7 +24,8 @@
 		<?php foreach ($posts as $id => $note): ?>
 			<?php include 'include/item.php'; ?>
 		<?php endforeach; ?>
-		<div class="content">
+
+		<div class="entry">
 			<div class="pages">
 				<?php foreach (range(1, $pages) as $number): ?>
 					<a class="<?php if ($number == $page): ?>selected<?php endif; ?>" href="/?p=<?= $number ?>"><?= $number ?></a>

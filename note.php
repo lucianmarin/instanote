@@ -23,16 +23,20 @@
 
 <div class="main">
 	<div class="center">
-	<div class="content">
+		<div class="entry">
 			<div class="meta">
 				<?php if (isset($previous_id)): ?>
-					<a href="/note.php?id=<?= $previous_id ?>">Previously</a>
+					<a href="/note.php?id=<?= $previous_id ?>">
+						Backward
+					</a>
 				<?php endif; ?>
 				<?php if (isset($previous_id) and isset($next_id)): ?>
 					<b>&frasl;</b>
 				<?php endif; ?>
 				<?php if (isset($next_id)): ?>
-					<a href="/note.php?id=<?= $next_id ?>">Up next</a>
+					<a href="/note.php?id=<?= $next_id ?>">
+						Forward
+					</a>
 				<?php endif; ?>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-<div class="content">
+<div class="entry">
 	<div class="meta">
 		<a href="/note.php?id=<?= $id ?>">
 			<?= date('M j, Y', $id) ?>
@@ -15,14 +15,17 @@
 			</a>
 		<?php endif; ?>
 	</div>
+
 	<h4>
 		<a class="title" target="_blank" href="<?= $note['url'] ?>">
 			<?= $note['title'] ?>
 		</a>
 	</h4>
+
 	<?php if ($note['quote']): ?>
 		<p class="quote"><?= $note['quote'] ?></p>
 	<?php endif; ?>
+
 	<?php if ($note['note']): ?>
 		<p class="note"><?= $note['note'] ?></p>
 	<?php endif; ?>

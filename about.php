@@ -4,19 +4,19 @@
 
 <div class="main">
 	<div class="center">
-		<div class="content">
+		<div class="entry">
 			<p class="meta">Hi, there!</p>
 			<p>I’m Lucian and I live in <a href="https://en.wikipedia.org/wiki/Bucharest">Bucharest</a>, <a href="https://en.wikipedia.org/wiki/Romania">Romania</a>. I'm mostly programming backends these days, but I started as a web designer and worked as frontend engineer for a bit. I enjoy coding in Python (Django, Falcon, Pytest), vanilla JavaScript and PHP, Swift and SQL (PostgreSQL, Clickhouse, Oracle).</p>
 			<p style="margin-top: 5px;">Designing user interfaces on a Mac remains a hobby. I’m striving for perfection and I pay attention to the tiniest details in everything I'm trying to achieve.<p>
 		</div>
-		<div class="content">
+		<div class="entry">
 			<p class="meta">Contact me</p>
 			<p class="link">Gmail</p>
 			<p class="link">marin.lucian</p>
 			<p class="link">Phone</p>
 			<p class="link">+40 726 210 589</p>
 		</div>
-		<div class="content">
+		<div class="entry">
 			<p class="meta">Almost social</p>
 			<p class="link">
 				<a href="https://dribbble.com/lucianmarin">Dribbble</a>
@@ -49,7 +49,7 @@
 				<a href="https://t.me/lucianmarin">Telegram</a>
 			</p>
 		</div>
-		<div class="content">
+		<div class="entry">
 			<p class="meta">Tiny resume</p>
 			<p class="link">2020</p>
 			<p class="link">Verifone</p>
