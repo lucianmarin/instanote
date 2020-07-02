@@ -5,7 +5,7 @@
 
 	$notes = get_notes();
 	$id = isset($_GET['id']) ? $_GET['id'] : 0;
-	$new = null;
+	$new = array('url' => '', 'title' => '', 'quote' => '', 'note' => '');
 
 	if ($id) {
 		$new = $notes[$id];
@@ -44,15 +44,15 @@
 	<div class="center">
 		<form action="<?= $self ?>" method="post" autocomplete="off">
 			<input type="url" name="url" placeholder="URL"
-				value="<?= $new['url'] ?? "" ?>" required />
+				value="<?= $new['url'] ?>" required />
 			<input type="text" name="title" placeholder="Title"
-				value="<?= $new['title'] ?? "" ?>" required />
+				value="<?= $new['title'] ?>" required />
 			<textarea id="desc" name="quote" placeholder="Quote"
 				rows="4" cols="80" oninput="expand(this)"
-				onkeydown="prevent(event)"><?= $new['quote'] ?? "" ?></textarea>
+				onkeydown="prevent(event)"><?= $new['quote'] ?></textarea>
 			<textarea id="note" class="last" name="note" placeholder="Note"
 				rows="1" cols="80" oninput="expand(this)"
-				onkeydown="prevent(event)"><?= $new['note'] ?? "" ?></textarea>
+				onkeydown="prevent(event)"><?= $new['note'] ?></textarea>
 			<input type="hidden" name="id" value="<?= $id ?>" />
 			<input type="submit" value="Update" />
 		</form>

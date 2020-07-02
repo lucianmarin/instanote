@@ -19,6 +19,9 @@
 		<div class="entry">
 			<p class="meta">Almost social</p>
 			<p class="link">
+				<a href="https://www.behance.net/lucianmarin">Bēhance</a>
+			</p>
+			<p class="link">
 				<a href="https://dribbble.com/lucianmarin">Dribbble</a>
 			</p>
 			<p class="link">
@@ -35,6 +38,9 @@
 			</p>
 			<p class="link">
 				<a href="https://www.paypal.me/lucianmarin">PayPal</a>
+			</p>
+			<p class="link">
+				<a href="https://pinterest.com/lucianmarin/boards/">Pinterest</a>
 			</p>
 			<p class="link">
 				<a href="https://soundcloud.com/lucianmarin">SoundCloud</a>
