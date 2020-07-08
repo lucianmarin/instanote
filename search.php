@@ -4,6 +4,7 @@
 	$q = isset($_GET['q']) ? $_GET['q'] : '';
 	$notes = get_notes();
 	$results = array();
+	$limit = 7;
 
 	if ($q) {
 		foreach ($notes as $id => $note) {
@@ -16,9 +17,9 @@
 			}
 		}
 		$label = count($results).' search results';
-		$results = array_slice($results, 0, 5, true);
+		$results = array_slice($results, 0, $limit, true);
 	} else {
-		$keys = array_rand($notes, 5);
+		$keys = array_rand($notes, $limit);
 		foreach ($keys as $key) {
 			$results[$key] = $notes[$key];
 		}
