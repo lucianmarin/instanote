@@ -6,7 +6,7 @@
 	<div class="center">
 		<div class="entry">
 			<p class="meta">Hi, there!</p>
-			<p>I’m Lucian and I live in <a href="https://en.wikipedia.org/wiki/Bucharest">Bucharest</a>, <a href="https://en.wikipedia.org/wiki/Romania">Romania</a>. I'm mostly programming backends these days, but I started as a web designer and worked as frontend engineer for a bit. I enjoy coding in Python (Django, Falcon, Pytest), vanilla JavaScript and PHP, Swift and SQL (PostgreSQL, Clickhouse, Oracle).</p>
+			<p>I'm mostly programming backends these days, but I started as a web designer and worked as frontend engineer for a bit. I enjoy coding in Python using Falcon, Django, Pytest and I keep things vanilla in JavaScript, PHP, Swift and SQL.</p>
 			<p style="margin-top: 5px;">Designing user interfaces on a Mac remains a hobby. I’m striving for perfection and I pay attention to the tiniest details in everything I'm trying to achieve.<p>
 		</div>
 		<div class="entry">
@@ -19,16 +19,10 @@
 		<div class="entry">
 			<p class="meta">Almost social</p>
 			<p class="link">
-				<a href="https://www.behance.net/lucianmarin">Bēhance</a>
-			</p>
-			<p class="link">
 				<a href="https://dribbble.com/lucianmarin">Dribbble</a>
 			</p>
 			<p class="link">
 				<a href="https://github.com/lucianmarin">GitHub</a>
-			</p>
-			<p class="link">
-				<a href="https://hypem.com/lucianmarin">Hype Machine</a>
 			</p>
 			<p class="link">
 				<a href="https://instagram.com/lucianmarin/">Instagram</a>
