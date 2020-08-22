@@ -34,13 +34,13 @@
 				<a href="https://www.paypal.me/lucianmarin">PayPal</a>
 			</p>
 			<p class="link">
+				<a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">Play Store</a>
+			</p>
+			<p class="link">
 				<a href="https://pinterest.com/lucianmarin/boards/">Pinterest</a>
 			</p>
 			<p class="link">
 				<a href="https://soundcloud.com/lucianmarin">SoundCloud</a>
-			</p>
-			<p class="link">
-				<a href="https://open.spotify.com/user/lucianmarin">Spotify</a>
 			</p>
 			<p class="link">
 				<a href="https://twitter.com/lucianmarin">Twitter</a>
