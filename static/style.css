@@ -343,14 +343,12 @@ input.key {
 	font-family: "Route 159";
 	font-style: normal;
 	font-weight: normal;
-	src:
-		url(/fonts/route159/regular.woff2) format("woff2");
+	src: url(/fonts/route159/regular.woff) format("woff");
 }
 
 @font-face {
 	font-family: "Route 159";
 	font-style: normal;
 	font-weight: bold;
-	src:
-		url(/fonts/route159/bold.woff2) format("woff2");
+	src: url(/fonts/route159/bold.woff) format("woff");
 }
