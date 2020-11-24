@@ -11,7 +11,9 @@
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="/rss.php">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
 	<link rel="stylesheet" type="text/css" href="/static/style.css?v=24">
-	<script type="text/javascript" src="/static/script.js?v=9" async defer></script>
+	<?php if($auth): ?>
+		<script type="text/javascript" src="/static/script.js?v=9" async defer></script>
+	<?php endif; ?>
 </head>
 <?php if (strpos($self, 'edit')): ?>
 	<body onload="bodyLoad()">
