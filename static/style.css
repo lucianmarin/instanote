@@ -7,13 +7,13 @@ html {
 	--small: 12px;
 	--percent: 5%;
 	--d: 0.2s;
-	--silver: #b0b0b0;
-	--gray: #707070;
+	--silver: #a0a0a0;
+	--gray: #606060;
 	--white: #fff;
 	--black: #000;
 	--whitesmoke: #f0f0f0;
-	--whitesilver: #e7e7e7;
-	--gainsboro: #d0d0d0;
+	--whitesilver: #e8e8e8;
+	--gainsboro: #d8d8d8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -140,7 +140,7 @@ textarea, input {
 	appearance: none;
 	background-color: var(--white);
 	border: 0 none;
-	border-bottom: var(--silver) 1px dotted;
+	border-bottom: var(--gainsboro) 1px solid;
 	border-radius: 0;
 	color: var(--black);
 	display: block;
@@ -159,7 +159,7 @@ input[type=submit] {
 	color: var(--gray);
 	padding: 3px 10px;
 	background-color: var(--white);
-	border: var(--silver) 1px dotted;
+	border: var(--gainsboro) 1px solid;
 	border-radius: 3px;
 	font-size: var(--caps);
 	letter-spacing: 1px;
@@ -169,9 +169,9 @@ input[type=submit] {
 	transition: border-color 0.5s;
 	width: auto;
 }
-	/* input[type=submit]:hover {
+	input[type=submit]:hover {
 		border-color: var(--silver);
-	} */
+	}
 
 textarea.last, input.last {
 	border-bottom: 0 none;
@@ -183,7 +183,7 @@ input.key {
 }
 
 .entry {
-	border-bottom: var(--silver) 1px dotted;
+	border-bottom: var(--gainsboro) 1px solid;
 	color: var(--gray);
 	overflow: hidden;
 	padding: 10px var(--percent);
@@ -218,7 +218,7 @@ input.key {
 	white-space: nowrap;
 }
 	.pages a {
-		border-right: var(--silver) 1px dotted;
+		border-right: var(--gainsboro) 1px solid;
 		color: var(--silver);
 		padding: 0 7px;
 	}
@@ -234,7 +234,7 @@ input.key {
 	}
 
 .search {
-	border-bottom: var(--silver) 1px dotted;
+	border-bottom: var(--gainsboro) 1px solid;
 	padding: 10px var(--percent);
 }
 	.search input {
@@ -251,7 +251,7 @@ input.key {
 		margin-bottom: 0;
 	}
 	.product img {
-		border: var(--silver) 1px dotted;
+		border: var(--gainsboro) 1px solid;
 		float: left;
 		margin: -1px 0;
 		margin-left: -52px;

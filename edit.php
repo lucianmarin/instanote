@@ -32,11 +32,20 @@
 <?php include 'include/menu.php'; ?>
 
 <script>
-	function bodyLoad() {
+	function load() {
 		var desc = document.getElementById('desc');
 		var note = document.getElementById('note');
 		expand(desc);
 		expand(note);
+	}
+	function expand(element) {
+		element.style.height = 'auto';
+		element.style.height = (element.scrollHeight - 10) + 'px';
+	}
+	function prevent(event) {
+		if (event.keyCode === 13) {
+			event.preventDefault();
+		}
 	}
 </script>
 
