@@ -30,7 +30,7 @@
 		<div class="entry">
 			<p class="meta">Mac Apps</p>
 			<div class="product">
-				<img class="zoom" src="/images/monochrome.png" width="40" height="40" onclick="show('monochrome')">
+				<img src="/images/monochrome.png" width="40" height="40">
 				<p>
 					<a href="https://src.lucianmarin.com/apps/monochrome-5.2.dmg">
 						<strong>Monochrome 5.2</strong> <span>dmg</span>
@@ -40,7 +40,7 @@
 				<p>Helps you design responsive sites and browse the mobile web from the comfort of your Mac.</p>
 			</div>
 			<div class="product">
-				<img class="zoom" src="/images/multicolor.png" width="40" height="40" onclick="show('multicolor')">
+				<img src="/images/multicolor.png" width="40" height="40">
 				<p>
 					<a href="https://src.lucianmarin.com/apps/multicolor-1.1.dmg">
 						<strong>Multicolor 1.1</strong> <span>dmg</span>
@@ -50,7 +50,7 @@
 				<p>Generates five distinct colors and their luminance.</p>
 			</div>
 			<div class="product">
-				<img class="zoom" src="/images/bicolor.png" width="40" height="40" onclick="show('bicolor')">
+				<img src="/images/bicolor.png" width="40" height="40">
 				<p>
 					<a href="https://src.lucianmarin.com/apps/bicolor-1.2.dmg">
 						<strong>Bicolor 1.2</strong> <span>dmg</span>

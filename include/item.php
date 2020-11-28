@@ -4,11 +4,10 @@
 			<?= date('M j, Y', $id) ?>
 		</a>
 		<b>&frasl;</b>
-		<?php if ($auth): ?>
+		<?php if ($auth and strpos($self, 'note')): ?>
 			<a href="/edit.php?id=<?= $id ?>">edit</a>
 			<b>&frasl;</b>
-			<a onclick="erase(this)">erase</a>
-			<a class="hidden" href="/delete.php?id=<?= $id ?>">yes</a>
+			<a href="/delete.php?id=<?= $id ?>">erase</a>
 		<?php else: ?>
 			<a href="/note.php?id=<?= $id ?>">
 				<?= date('l', $id) ?>

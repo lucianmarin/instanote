@@ -74,24 +74,6 @@ a {
 	transition: color 0.2s;
 }
 
-.showcase {
-	background-color: rgba(128,128,128,0.5);
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-	.showcase img {
-		border: rgba(128,128,128,0.2) 5px solid;
-		left: calc(50% - 165px);
-		top: calc(50% - 165px);
-		position: relative;
-		cursor: zoom-out;
-	}
-
 .center {
 	margin: 0 auto;
 	max-width: 480px;
@@ -274,9 +256,6 @@ input.key {
 		margin: -1px 0;
 		margin-left: -52px;
 	}
-	.product img.zoom {
-		cursor: zoom-in;
-	}
 	.product strong {
 		color: var(--black);
 	}
@@ -307,16 +286,6 @@ input.key {
 	}
 	.meta b {
 		padding: 0 3px;
-	}
-	.meta .hidden {
-		display: none;
-	}
-	.meta .confirm {
-		color: orangered;
-		display: inline;
-	}
-	.meta .liked {
-		color: orangered;
 	}
 
 .footer {
