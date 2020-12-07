@@ -28,6 +28,18 @@
 			</div>
 		</div>
 		<div class="entry">
+			<p class="meta">Android Apps</p>
+			<div class="product">
+				<img src="/images/subdroid.png" width="40" height="40">
+				<p>
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">
+						<strong>Subreply</strong>
+					</a>
+				</p>
+				<p>Supports pull to refresh, light and dark themes.</p>
+			</div>
+		</div>
+		<div class="entry">
 			<p class="meta">Mac Apps</p>
 			<div class="product">
 				<img src="/images/monochrome.png" width="40" height="40">
@@ -58,19 +70,6 @@
 				</p>
 				<p>Contrast comparison tool for Mac.</p>
 				<p>Calculates the contrast ratio between two colors.</p>
-			</div>
-		</div>
-		<div class="entry">
-			<p class="meta">Open Source</p>
-			<div class="product">
-				<img src="/images/lm.png" width="40" height="40">
-				<p>
-					<a href="https://github.com/lucianmarin">
-						<strong>GitHub Repos</strong>
-					</a>
-				</p>
-				<p>Instanote, Pressdown, PyBench, Peculiar, Journalist...</p>
-				<p>Support the endeavour by using <a href="https://www.vultr.com/?ref=8538483-6G">Vultr</a> cloud servers, donating using <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZMPR9EL9VPPG&source=url">PayPal</a> or signing up on <a href="https://subreply.com/">Subreply</a>.</p>
 			</div>
 		</div>
 	</div>
