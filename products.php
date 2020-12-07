@@ -7,16 +7,6 @@
 		<div class="entry">
 			<p class="meta">Web Apps</p>
 			<div class="product">
-				<img src="/images/afeed.png" width="40" height="40">
-				<p>
-					<a href="https://artificialfeed.com/">
-						<strong>Artificial Feed</strong>
-					</a>
-				</p>
-				<p>News automation at its finest.</p>
-				<p>A feed built with AI and Facebook API.</p>
-			</div>
-			<div class="product">
 				<img src="/images/sub.png" width="40" height="40">
 				<p>
 					<a href="https://subreply.com/">
@@ -25,6 +15,16 @@
 				</p>
 				<p>Tiny, but mighty social network.</p>
 				<p>Endless replies are all we need to communicate.</p>
+			</div>
+			<div class="product">
+				<img src="/images/afeed.png" width="40" height="40">
+				<p>
+					<a href="https://unfeeder.com/">
+						<strong>Unfeeder</strong>
+					</a>
+				</p>
+				<p>Live and automated news feed.</p>
+				<p>Articles are ranked by Facebook API.</p>
 			</div>
 		</div>
 		<div class="entry">
