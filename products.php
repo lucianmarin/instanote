@@ -44,8 +44,8 @@
 			<div class="product">
 				<img src="/images/monochrome.png" width="40" height="40">
 				<p>
-					<a href="https://src.lucianmarin.com/apps/monochrome-5.2.dmg">
-						<strong>Monochrome 5.2</strong> <span>dmg</span>
+					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+						<strong>Monochrome 5.2</strong>
 					</a>
 				</p>
 				<p>Mobile browser for Mac.</p>
@@ -54,8 +54,8 @@
 			<div class="product">
 				<img src="/images/multicolor.png" width="40" height="40">
 				<p>
-					<a href="https://src.lucianmarin.com/apps/multicolor-1.1.dmg">
-						<strong>Multicolor 1.1</strong> <span>dmg</span>
+					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+						<strong>Multicolor 1.1</strong>
 					</a>
 				</p>
 				<p>Color schemes generator for Mac.</p>
@@ -64,8 +64,8 @@
 			<div class="product">
 				<img src="/images/bicolor.png" width="40" height="40">
 				<p>
-					<a href="https://src.lucianmarin.com/apps/bicolor-1.2.dmg">
-						<strong>Bicolor 1.2</strong> <span>dmg</span>
+					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+						<strong>Bicolor 1.2</strong>
 					</a>
 				</p>
 				<p>Contrast comparison tool for Mac.</p>
