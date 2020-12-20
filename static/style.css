@@ -12,8 +12,7 @@ html {
 	--white: #fff;
 	--black: #000;
 	--whitesmoke: #f0f0f0;
-	--whitesilver: #e8e8e8;
-	--gainsboro: #d8d8d8;
+	--gainsboro: #d0d0d0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,7 +22,6 @@ html {
 		--white: #000;
 		--black: #fff;
 		--whitesmoke: #202020;
-		--whitesilver: #101010;
 		--gainsboro: #404040;
 	}
 }
@@ -86,11 +84,10 @@ a {
 }
 
 .menu {
-	border-bottom: var(--whitesilver) 1px solid;
 	overflow: hidden;
 	padding: 10px 0;
 	padding-top: 20px;
-	padding-bottom: 9px;
+	padding-bottom: 10px;
 	text-transform: lowercase;
 }
 
@@ -289,13 +286,12 @@ input.key {
 	}
 
 .footer {
-	border-top: var(--whitesilver) 1px solid;
 	color: var(--silver);
 	font-size: var(--caps);
 	letter-spacing: 1px;
 	padding: 10px 0;
 	padding-bottom: 20px;
-	padding-top: 9px;
+	padding-top: 10px;
 	text-transform: uppercase;
 }
 	.footer a {
