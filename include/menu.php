@@ -3,26 +3,26 @@
 		<h5>Lucian Marin</h5>
 		<h1>
 			<a
-				class="<? if (strpos($self, 'index') or strpos($self, 'note')): ?>selected<? endif; ?>"
+				class="<?php if (strpos($self, 'index') or strpos($self, 'note')): ?>selected<?php endif; ?>"
 				href="/">Notes</a>
 			<a
-				class="<? if(strpos($self, 'search')): ?>selected<? endif; ?>"
+				class="<?php if(strpos($self, 'search')): ?>selected<?php endif; ?>"
 				href="/search.php">Search</a>
 			<a
-				class="<? if (strpos($self, 'products')): ?>selected<? endif; ?>"
+				class="<?php if (strpos($self, 'products')): ?>selected<?php endif; ?>"
 				href="/products.php">Products</a>
 			<a
-				class="<? if (strpos($self, 'about')): ?>selected<? endif; ?>"
+				class="<?php if (strpos($self, 'about')): ?>selected<?php endif; ?>"
 				href="/about.php">About</a>
-			<? if($auth): ?>
+			<?php if($auth): ?>
 				<a
-					class="<? if (strpos($self, 'edit')): ?>selected<? endif; ?>"
-					<? if (strpos($self, 'edit') and $id): ?>
+					class="<?php if (strpos($self, 'edit')): ?>selected<?php endif; ?>"
+					<?php if (strpos($self, 'edit') and $id): ?>
 						href="/edit.php?id=<?= $id ?>">Edit</a>
-					<? else: ?>
+					<?php else: ?>
 						href="/edit.php">Add</a>
-					<? endif; ?>
-			<? endif; ?>
+					<?php endif; ?>
+			<?php endif; ?>
 		</h1>
 	</div>
 </div>

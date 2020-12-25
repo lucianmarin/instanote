@@ -24,18 +24,18 @@
 	}
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <div class="main">
 	<div class="center">
-		<? if($sent): ?>
+		<?php if($sent): ?>
 			<div class="content">
 				<h4><a href="contact.php">Message sent</a></h4>
 				<p class="quote">See what I’m doing now on <a href="https://sublevel.net/lucian/">Sublevel</a>...</p>
 				<p class="note">...or wait for an answer.</p>
 			</div>
-		<? else: ?>
+		<?php else: ?>
 			<form action="<?= $self ?>" method="post" autocomplete="off">
 				<input type="email" name="email" placeholder="Email"
 					required />
@@ -47,8 +47,8 @@
 					class="last" required />
 				<input type="submit" value="Send" />
 			</form>
-		<? endif; ?>
+		<?php endif; ?>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

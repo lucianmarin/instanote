@@ -2,13 +2,15 @@
 	<div class="center">
 		<p>
 			<?= date("Y"); ?>
-			<a href="https://dubfi.com/lucian">@lucian</a>
+			<a href="https://subreply.com/">sub</a>
+			&frasl;
+			<a href="https://subreply.com/lucian">lucian</a>
 			&mdash;
-			<? if ($auth): ?>
+			<?php if ($auth): ?>
 				<a href="/set.php?logout">Logout</a>
-			<? else: ?>
+			<?php else: ?>
 				<a href="/rss.php">RSS</a>
-			<? endif; ?>
+			<?php endif; ?>
 		</p>
 	</div>
 </div>

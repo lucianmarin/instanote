@@ -15,7 +15,7 @@
 		<language>en-us</language>
 		<pubDate><?= date('r', $last_id) ?></pubDate>
 		<lastBuildDate><?= date('r', $last_id) ?></lastBuildDate>
-<? foreach ($notes as $id => $note): ?>
+<?php foreach ($notes as $id => $note): ?>
 		<item>
 			<title><?= $note['title'] ?></title>
 			<description><?= $note['quote'] ?></description>
@@ -23,6 +23,6 @@
 			<pubDate><?= date('r', $id) ?></pubDate>
 			<guid>https://lucianmarin.com/note.php?id=<?= $id ?></guid>
 		</item>
-<? endforeach; ?>
+<?php endforeach; ?>
 	</channel>
 </rss>
