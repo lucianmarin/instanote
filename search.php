@@ -4,6 +4,7 @@
 	$q = isset($_GET['q']) ? $_GET['q'] : '';
 	$notes = get_notes();
 	$results = array();
+	$limit = 7;
 
 	if ($q) {
 		foreach ($notes as $id => $note) {
@@ -16,9 +17,9 @@
 			}
 		}
 		$label = count($results).' search results';
-		$results = array_slice($results, 0, 5, true);
+		$results = array_slice($results, 0, $limit, true);
 	} else {
-		$keys = array_rand($notes, 5);
+		$keys = array_rand($notes, $limit);
 		foreach ($keys as $key) {
 			$results[$key] = $notes[$key];
 		}
@@ -26,19 +27,19 @@
 	}
 ?>
 
-<? include 'include/header.php'; ?>
-<? include 'include/menu.php'; ?>
+<?php include 'include/header.php'; ?>
+<?php include 'include/menu.php'; ?>
 
 <div class="main">
 	<div class="center">
 		<form class="search" action="/search.php" method="get" autocomplete="off">
 			<input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
 		</form>
-		<? foreach ($results as $id => $note): ?>
-			<? include 'include/item.php'; ?>
-		<? endforeach; ?>
+		<?php foreach ($results as $id => $note): ?>
+			<?php include 'include/item.php'; ?>
+		<?php endforeach; ?>
 		<div class="status"><?= $label ?></div>
 	</div>
 </div>
 
-<? include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>
