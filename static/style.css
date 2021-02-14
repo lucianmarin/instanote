@@ -31,13 +31,9 @@ html {
 	padding: 0;
 }
 
-::-webkit-input-placeholder {
-	color: var(--gray);
-}
+::-webkit-input-placeholder { color: var(--gray); }
 
-::-moz-placeholder {
-	color: var(--gray);
-}
+::-moz-placeholder { color: var(--gray); }
 
 body, input, textarea {
 	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
@@ -56,9 +52,7 @@ b, u {
 	text-decoration: none;
 }
 
-sup {
-	line-height: 0;
-}
+sup { line-height: 0; }
 
 img {
 	border-radius: 7px;
@@ -113,18 +107,10 @@ h1 {
 		float: left;
 		margin: 0 5px;
 	}
-	h1 a:first-child {
-		margin-left: 0;
-	}
-	h1 a:last-child {
-		margin-right: 0;
-	}
-	h1 a:hover {
-		color: var(--gray);
-	}
-	h1 a.selected {
-		color: var(--black);
-	}
+	h1 a:first-child { margin-left: 0; }
+	h1 a:last-child { margin-right: 0; }
+	h1 a:hover { color: var(--gray); }
+	h1 a.selected { color: var(--black); }
 
 form {
 	padding: 10px 0;
@@ -166,28 +152,21 @@ input[type=submit] {
 	transition: border-color 0.5s;
 	width: auto;
 }
-	input[type=submit]:hover {
-		border-color: var(--silver);
-	}
+	input[type=submit]:hover { border-color: var(--silver); }
 
 textarea.last, input.last {
 	border-bottom: 0 none;
 	margin-bottom: 10px;
 }
 
-input.key {
-	margin-bottom: 10px;
-}
+input.key { margin-bottom: 10px; }
 
 .entry {
 	border-bottom: var(--gainsboro) 1px solid;
 	color: var(--gray);
-	overflow: hidden;
 	padding: 10px var(--percent);
 }
-	.entry:last-child {
-		border-bottom: 0 none;
-	}
+	.entry:last-child { border-bottom: 0 none; }
 	.entry .quote {
 		color: var(--gray);
 		cursor: text;
@@ -219,16 +198,12 @@ input.key {
 		color: var(--silver);
 		padding: 0 7px;
 	}
-	.pages a:first-child {
-		padding-left: 0;
-	}
+	.pages a:first-child { padding-left: 0; }
 	.pages a:last-child {
 		border-right: 0 none;
 		padding-right: 0;
 	}
-	.pages a.selected {
-		color: var(--black);
-	}
+	.pages a.selected { color: var(--black); }
 
 .search {
 	border-bottom: var(--gainsboro) 1px solid;
@@ -244,30 +219,18 @@ input.key {
 	margin-bottom: 5px;
 	padding-left: 52px;
 }
-	.product:last-child {
-		margin-bottom: 0;
-	}
+	.product:last-child { margin-bottom: 0; }
 	.product img {
 		border: var(--gainsboro) 1px solid;
 		float: left;
 		margin: -1px 0;
 		margin-left: -52px;
 	}
-	.product strong {
-		color: var(--black);
-	}
-	.product p {
-		color: var(--silver);
-	}
-	.product p a {
-		color: var(--silver);
-	}
-	.product p:last-child {
-		color: var(--gray);
-	}
-	.product p:last-child a {
-		color: var(--black)
-	}
+	.product strong { color: var(--black); }
+	.product p { color: var(--silver); }
+	.product p a { color: var(--silver); }
+	.product p:last-child { color: var(--gray); }
+	.product p:last-child a { color: var(--black) }
 
 .meta {
 	color: var(--silver);
@@ -275,15 +238,9 @@ input.key {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
-	.meta a {
-		color: var(--silver);
-	}
-	.meta a:hover {
-		color: var(--gray);
-	}
-	.meta b {
-		padding: 0 3px;
-	}
+	.meta a { color: var(--silver); }
+	.meta a:hover { color: var(--gray); }
+	.meta b { padding: 0 3px; }
 
 .footer {
 	color: var(--silver);
@@ -294,15 +251,9 @@ input.key {
 	padding-top: 10px;
 	text-transform: uppercase;
 }
-	.footer a {
-		color: var(--gray);
-	}
-	.footer b {
-		padding: 0 3px;
-	}
-	.footer p {
-		padding: 0 var(--percent);
-	}
+	.footer a { color: var(--gray); }
+	.footer b { padding: 0 3px; }
+	.footer p { padding: 0 var(--percent); }
 
 @font-face {
 	font-family: "Route 159";

@@ -21,13 +21,11 @@
 		</a>
 	</h4>
 
-	<?php if (!strpos($self, 'search')): ?>
-		<?php if ($note['quote']): ?>
-			<p class="quote"><?= $note['quote'] ?></p>
-		<?php endif; ?>
+	<?php if ($note['quote']): ?>
+		<p class="quote"><?= $note['quote'] ?></p>
+	<?php endif; ?>
 
-		<?php if ($note['note']): ?>
-			<p class="note"><?= $note['note'] ?></p>
-		<?php endif; ?>
+	<?php if ($note['note']): ?>
+		<p class="note"><?= $note['note'] ?></p>
 	<?php endif; ?>
 </div>

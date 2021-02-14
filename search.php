@@ -4,7 +4,7 @@
 	$q = isset($_GET['q']) ? $_GET['q'] : '';
 	$notes = get_notes();
 	$results = array();
-	$limit = 16;
+	$limit = 24;
 
 	if ($q) {
 		foreach ($notes as $id => $note) {
@@ -34,7 +34,7 @@
 			<input name="q" type="text" value="<?= $q ?>" placeholder="Keywords" autofocus onfocus="this.selectionStart = this.selectionEnd = this.value.length" />
 		</form>
 		<?php foreach ($results as $id => $note): ?>
-			<?php include 'include/item.php'; ?>
+			<?php include 'include/compact.php'; ?>
 		<?php endforeach; ?>
 		<div class="status"><?= $label ?></div>
 	</div>
