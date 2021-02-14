@@ -4,7 +4,7 @@
 	$q = isset($_GET['q']) ? $_GET['q'] : '';
 	$notes = get_notes();
 	$results = array();
-	$limit = 7;
+	$limit = 16;
 
 	if ($q) {
 		foreach ($notes as $id => $note) {
@@ -16,15 +16,13 @@
 				$results[$id] = $note;
 			}
 		}
-		$label = count($results).' search results';
-		$results = array_slice($results, 0, $limit, true);
+		$label = count($results) . ' search results';
 	} else {
-		$keys = array_rand($notes, $limit);
-		foreach ($keys as $key) {
-			$results[$key] = $notes[$key];
-		}
-		$label = '5 random notes';
+		$results = $notes;
+		$label = $limit . ' recent notes';
 	}
+
+	$results = array_slice($results, 0, $limit, true);
 ?>
 
 <?php include 'include/header.php'; ?>

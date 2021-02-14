@@ -8,7 +8,7 @@
 	} else {
 		$page = 1;
 	}
-	$limit = 7;
+	$limit = 8;
 	$offset = $limit * ($page - 1);
 	$count = count($posts);
 	$pages = ceil($count / $limit);
