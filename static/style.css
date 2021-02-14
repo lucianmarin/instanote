@@ -164,6 +164,7 @@ input.key { margin-bottom: 10px; }
 .entry {
 	border-bottom: var(--gainsboro) 1px solid;
 	color: var(--gray);
+	overflow: hidden;
 	padding: 10px var(--percent);
 }
 	.entry:last-child { border-bottom: 0 none; }
