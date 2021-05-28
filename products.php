@@ -44,7 +44,7 @@
 			<div class="product">
 				<img src="/images/monochrome.png" width="40" height="40">
 				<p>
-					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+					<a href="https://app.box.com/s/xu1pwny4qsx4h0nj0jrlsvyfmorjzn0q">
 						<strong>Monochrome 5.2</strong>
 					</a>
 				</p>
@@ -54,7 +54,7 @@
 			<div class="product">
 				<img src="/images/multicolor.png" width="40" height="40">
 				<p>
-					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+					<a href="https://app.box.com/s/xvwan1mqk47v7rd6r7xbas12lu66v76p">
 						<strong>Multicolor 1.1</strong>
 					</a>
 				</p>
@@ -64,7 +64,7 @@
 			<div class="product">
 				<img src="/images/bicolor.png" width="40" height="40">
 				<p>
-					<a href="https://github.com/lucianmarin/lucianmarin.github.io/releases/tag/macos">
+					<a href="https://app.box.com/s/514y1vlpfkcuoh0a4lc226eizxhyb668">
 						<strong>Bicolor 1.2</strong>
 					</a>
 				</p>
