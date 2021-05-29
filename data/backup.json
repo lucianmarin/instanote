@@ -1,9 +1,51 @@
 {
+    "1614635375": {
+        "url": "https://fs.blog/2021/03/thinking-rate-fixed/",
+        "title": "Your thinking rate is fixed",
+        "quote": "You can\u2019t force yourself to think faster. If you try, you\u2019re likely to end up making much worse decisions.",
+        "note": "The more your think about a problem the faster you solve it."
+    },
+    "1613569694": {
+        "url": "https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html",
+        "title": "A guide for engineers and scientists",
+        "quote": "Because programming has become an essential component of engineering, science, medicine, media, business, finance, and many other fields, it is important for scientists and engineers to have a basic foundation in computer programming to be competitive.",
+        "note": ""
+    },
+    "1597358680": {
+        "url": "http://russianliteratureandbiography.com/505/",
+        "title": "Tolstoy\u2019s coding advice",
+        "quote": "You should only code when you feel within you some completely new and important idea, clear to you but unintelligible to others, and when the need to express this idea gives you no peace.",
+        "note": "(code, idea) = (write, content)"
+    },
+    "1595804327": {
+        "url": "https://www.anup.io/2020/07/20/invert-always-invert/",
+        "title": "Invert, always, invert",
+        "quote": "...it is in the nature of things that many hard problems are best solved when they are addressed backward.",
+        "note": "\"It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.\" \u2014 Charlie Munger"
+    },
+    "1594238667": {
+        "url": "https://en.wikipedia.org/wiki/I_Am_a_Strange_Loop",
+        "title": "I am a strange loop",
+        "quote": "In the end, we are self-perceiving, self-inventing, locked-in mirages that are little miracles of self-reference.",
+        "note": "Future is defined by things we want to improve from our past."
+    },
+    "1593410332": {
+        "url": "https://deniseyu.io/2020/05/23/habits-of-high-performing-teams.html",
+        "title": "Habits of high-functioning teams",
+        "quote": "Our communications with each other should be guided by the robustness principle: Be conservative in what you send, be liberal in what you accept.",
+        "note": ""
+    },
+    "1591921895": {
+        "url": "https://michaelfeathers.silvrback.com/functional-code-is-honest-code",
+        "title": "Functional code is honest code",
+        "quote": "That\u2019s the goal, really. Simplify understanding. No surprises. Honest code.",
+        "note": "Output depends only on input."
+    },
     "1583351314": {
         "url": "https://findwork.dev/blog/advanced-usage-python-requests-timeouts-retries-hooks/",
         "title": "Advanced usage of requests",
         "quote": "BaseUrlSession allows you to specify the base URL for the HTTP client and to only specify the resource path at the time of the request.",
-        "note": ""
+        "note": "The opposite of requests is Falcon which lets you speak HTTP."
     },
     "1571689715": {
         "url": "https://www.oreilly.com/learning/hadoop-with-python",
@@ -37,13 +79,13 @@
     },
     "1557338893": {
         "url": "http://ryanflorence.com/deploying-websites-with-a-tiny-git-hook/",
-        "title": "Deploying websites with a tiny Git hook",
+        "title": "Deploying websites with a tiny git hook",
         "quote": "Hooks?! Hooks are scripts that git will execute when awesome stuff happens, like after the repository receives a push.",
         "note": ""
     },
     "1550069992": {
         "url": "https://www.davidfischer.name/2017/01/python-command-line-apps/",
-        "title": "Python Command Line Apps",
+        "title": "Python command line apps",
         "quote": "There are a number of Python libraries and modules to help build a command line app from parsing arguments and options to testing to full blown CLI frameworks which handle things like colorized output, progress bars, sending email or pluggable modules.",
         "note": ""
     },
@@ -61,7 +103,7 @@
     },
     "1543930067": {
         "url": "https://sourcemaking.com",
-        "title": "Source Making",
+        "title": "Source making!",
         "quote": "Design patterns can speed up the development process by providing tested, proven development paradigms.",
         "note": "How to shape the source code."
     },
