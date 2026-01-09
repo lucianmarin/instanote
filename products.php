@@ -7,7 +7,7 @@
 		<div class="entry">
 			<p class="meta">Web Apps</p>
 			<div class="product">
-				<img src="/images/sub.png" width="40" height="40">
+				<img src="/static/images/sub.png" width="40" height="40">
 				<p>
 					<a href="https://subreply.com/">
 						<strong>Subreply</strong>
@@ -17,7 +17,7 @@
 				<p>Endless replies are all we need to communicate.</p>
 			</div>
 			<div class="product">
-				<img src="/images/afeed.png" width="40" height="40">
+				<img src="/static/images/afeed.png" width="40" height="40">
 				<p>
 					<a href="https://unfeeder.com/">
 						<strong>Unfeeder</strong>
@@ -30,7 +30,7 @@
 		<div class="entry">
 			<p class="meta">Android Apps</p>
 			<div class="product">
-				<img src="/images/subdroid.png" width="40" height="40">
+				<img src="/static/images/subdroid.png" width="40" height="40">
 				<p>
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">
 						<strong>Subreply</strong>
@@ -42,7 +42,7 @@
 		<div class="entry">
 			<p class="meta">Mac Apps</p>
 			<div class="product">
-				<img src="/images/monochrome.png" width="40" height="40">
+				<img src="/static/images/monochrome.png" width="40" height="40">
 				<p>
 					<a href="https://app.box.com/s/xu1pwny4qsx4h0nj0jrlsvyfmorjzn0q">
 						<strong>Monochrome 5.2</strong>
@@ -52,7 +52,7 @@
 				<p>Helps you design responsive sites and browse the mobile web from the comfort of your Mac.</p>
 			</div>
 			<div class="product">
-				<img src="/images/multicolor.png" width="40" height="40">
+				<img src="/static/images/multicolor.png" width="40" height="40">
 				<p>
 					<a href="https://app.box.com/s/xvwan1mqk47v7rd6r7xbas12lu66v76p">
 						<strong>Multicolor 1.1</strong>
@@ -62,7 +62,7 @@
 				<p>Generates five distinct colors and their luminance.</p>
 			</div>
 			<div class="product">
-				<img src="/images/bicolor.png" width="40" height="40">
+				<img src="/static/images/bicolor.png" width="40" height="40">
 				<p>
 					<a href="https://app.box.com/s/514y1vlpfkcuoh0a4lc226eizxhyb668">
 						<strong>Bicolor 1.2</strong>

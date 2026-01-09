@@ -260,12 +260,12 @@ input.key { margin-bottom: 10px; }
 	font-family: "Route 159";
 	font-style: normal;
 	font-weight: normal;
-	src: url(/fonts/route159/regular.woff2) format("woff2");
+	src: url(route159/regular.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Route 159";
 	font-style: normal;
 	font-weight: bold;
-	src: url(/fonts/route159/bold.woff2) format("woff2");
+	src: url(route159/bold.woff2) format("woff2");
 }
