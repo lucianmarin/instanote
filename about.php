@@ -18,40 +18,28 @@
 		</div>
 		<div class="entry">
 			<p class="meta">Almost social</p>
-			<p class="link">
-				<a href="https://dribbble.com/lucianmarin">Dribbble</a>
-			</p>
-			<p class="link">
-				<a href="https://github.com/lucianmarin">GitHub</a>
-			</p>
-			<p class="link">
-				<a href="https://instagram.com/lucianmarin/">Instagram</a>
-			</p>
-			<p class="link">
-				<a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a>
-			</p>
-			<p class="link">
-				<a href="https://www.paypal.me/lucianmarin">PayPal</a>
-			</p>
-			<p class="link">
-				<a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">Play Store</a>
-			</p>
-			<p class="link">
-				<a href="https://pinterest.com/lucianmarin/boards/">Pinterest</a>
-			</p>
-			<p class="link">
-				<a href="https://soundcloud.com/lucianmarin">SoundCloud</a>
-			</p>
-			<p class="link">
-				<a href="https://twitter.com/lucianmarin">Twitter</a>
-			</p>
-			<p class="link">
-				<a href="https://t.me/lucianmarin">Telegram</a>
-			</p>
+			<p class="link"><a href="https://bsky.app/profile/lucianmarin.com" rel="me">Bluesky</a></p>
+			<p class="link"><a href="https://designspiration.com/lucianmarin" rel="me">Designspiration</a></p>
+			<p class="link"><a href="https://dribbble.com/lucianmarin" rel="me">Dribbble</a></p>
+			<p class="link"><a href="https://figma.com/@lucianmarin" rel="me">Figma</a></p>
+			<p class="link"><a href="https://github.com/lucianmarin" rel="me">GitHub</a></p>
+			<p class="link"><a href="https://grokipedia.com/page/lucian-marin" rel="me">Grokipedia</a></p>
+			<p class="link"><a href="https://instagram.com/lucianmarin" rel="me">Instagram</a></p>
+			<p class="link"><a href="https://linkedin.com/in/marinlucian" rel="me">LinkedIn</a></p>
+			<p class="link"><a href="https://mastodon.social/@lucianmarin" rel="me">Mastodon</a></p>
+			<p class="link"><a href="https://nostr.lucianmarin.com/user/8f9bff0009b7667a7f6a44f755c6ad969092e91b684bf9934bb169cc885c65b6" rel="me">Nostr</a></p>
+			<p class="link"><a href="https://paypal.me/lucianmarin" rel="me">PayPal</a></p>
+			<p class="link"><a href="https://soundcloud.com/lucianmarin" rel="me">SoundCloud</a></p>
+			<p class="link"><a href="https://open.spotify.com/user/lucianmarin" rel="me">Spotify</a></p>
+			<p class="link"><a href="https://threads.com/@lucianmarin" rel="me">Threads</a></p>
+			<p class="link"><a href="https://vsco.co/lucianmarin" rel="me">VSCO</a></p>
+			<p class="link"><a href="https://x.com/lucianmarin" rel="me">X</a></p>
 		</div>
 		<div class="entry">
 			<p class="meta">Tiny resume</p>
-			<p class="link">2020&ndash;<?= date("Y"); ?></p>
+			<p class="link">2022&ndash;2024</p>
+			<p class="link">Renault</p>
+			<p class="link">2019&ndash;2022</p>
 			<p class="link">Verifone</p>
 			<p class="link">2018&ndash;2019</p>
 			<p class="link">Secureworks</p>
@@ -61,12 +49,8 @@
 			<p class="link">ChargeAds</p>
 			<p class="link">2012&ndash;2013</p>
 			<p class="link">DevLabel</p>
-			<p class="link">2011</p>
-			<p class="link">SourceFabric</p>
-			<p class="link">2008</p>
-			<p class="link">Sparktech</p>
-			<p class="link">2006&ndash;2007</p>
-			<p class="link">Firedive</p>
+			<p class="link">2006&ndash;2011</p>
+			<p class="link">Freelance</p>
 		</div>
 	</div>
 </div>

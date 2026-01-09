@@ -47,6 +47,9 @@ body {
 	cursor: default;
 }
 
+svg { stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
+svg path { fill: none; stroke: var(--black); }
+
 b, u {
 	font-weight: normal;
 	text-decoration: none;
@@ -218,14 +221,16 @@ input.key { margin-bottom: 10px; }
 
 .product {
 	margin-bottom: 5px;
-	padding-left: 52px;
+	padding-left: 50px;
 }
 	.product:last-child { margin-bottom: 0; }
-	.product img {
+	.product svg {
+		background-color: var(--white);
 		border: var(--gainsboro) 1px solid;
+		border-radius: 10px;
 		float: left;
-		margin: -1px 0;
-		margin-left: -52px;
+		margin-left: -50px;
+		padding: 9px;
 	}
 	.product strong { color: var(--black); }
 	.product p { color: var(--silver); }

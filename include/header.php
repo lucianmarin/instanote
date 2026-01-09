@@ -10,7 +10,7 @@
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/images/plus-white.png">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="/rss.php">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=29">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=2">
 </head>
 <?php if (strpos($self, 'edit')): ?>
 	<body onload="load()">
