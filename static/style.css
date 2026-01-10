@@ -185,11 +185,6 @@ input.key { margin-bottom: 10px; }
 	padding: 10px var(--percent);
 }
 
-.link {
-	float: left;
-	width: 50%;
-}
-
 .pages {
 	color: var(--silver);
 	font-size: var(--small);
@@ -237,6 +232,9 @@ input.key { margin-bottom: 10px; }
 	.product p a { color: var(--silver); }
 	.product p:last-child { color: var(--gray); }
 	.product p:last-child a { color: var(--black) }
+
+.links p { float: left; width: 50%; }
+.links p:first-child { float: none; width: auto; }
 
 .meta {
 	color: var(--silver);
