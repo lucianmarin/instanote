@@ -1,2 +1,3 @@
 .DS_Store
 include/auth.php
+static/logs.html
