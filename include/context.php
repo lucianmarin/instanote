@@ -1,5 +1,5 @@
 <?php
-	# create auth.php with $password m5 string
+	# create auth.php with $password md5 string
 	include 'include/auth.php';
 
 	# set timezone for generating ids
@@ -16,7 +16,6 @@
 	}
 
 	function put_notes($notes) {
-		copy('data/notes.json', 'data/backup.json');
 		krsort($notes);
 		file_put_contents('data/notes.json', json_encode(
 			$notes, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT
