@@ -1,11 +1,11 @@
 {
 	"lang": "en",
 	"name": "Lucian Marin",
-	"short_name": "Lucian Marin",
+	"short_name": "LM",
 	"description": "Notes by Lucian Marin",
 	"icons": [
 		{
-			"src": "/images/plus-white.png",
+			"src": "/static/images/plus-white.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
