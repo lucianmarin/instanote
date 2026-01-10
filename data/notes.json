@@ -1,4 +1,10 @@
 {
+    "1767993521": {
+        "url": "https://www.mihaileric.com/The-Emperor-Has-No-Clothes/",
+        "title": "How to code Claude Code in 200 lines of code",
+        "quote": "But the core loop? It\u2019s exactly what we built here. The LLM decides what to do, your code executes it, results flow back. That\u2019s the whole architecture.",
+        "note": ""
+    },
     "1614635375": {
         "url": "https://fs.blog/2021/03/thinking-rate-fixed/",
         "title": "Your thinking rate is fixed",
