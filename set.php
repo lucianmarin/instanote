@@ -8,16 +8,8 @@
 		redirect('/');
 	}
 
-	if (isset($_GET['dark']) and $_GET['dark'] === "on") {
-		setcookie('dark', 'on', $expire, '/');
-	}
-
 	if (isset($_GET['logout'])) {
 		setcookie('auth', '', 1, '/');
-	}
-
-	if (isset($_GET['clear'])) {
-		setcookie('dark', '', 1, '/');
 	}
 
 	redirect();
