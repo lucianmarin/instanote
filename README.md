@@ -1,4 +1,6 @@
-# instanote
+# Instanote
+
+![screenshot](screenshot.png)
 
 Lightweight note taking and link sharing built with PHP and a single JSON file (`data/notes.json`).
 
